@@ -1,0 +1,33 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.viewer",
+      "description": "viewer"
+    },
+    {
+      "name": "$XSAPPNAME.manager",
+      "description": "manager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "viewer",
+      "description": "",
+      "scope-references": [
+        "$XSAPPNAME.viewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "manager",
+      "description": "",
+      "scope-references": [
+        "$XSAPPNAME.manager"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "xsappname": "Roster",
+  "tenant-mode": "dedicated"
+}

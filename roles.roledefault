@@ -1,0 +1,42 @@
+[
+	{
+		"Name": "any",
+		"Description": "any users",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 2
+		}
+	},
+	{
+		"Name": "authenticated-user",
+		"Description": "authenticated users",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 2
+		}
+	},
+	{
+		"Name": "system-user",
+		"Description": "any users",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 2
+		}
+	},
+	{
+		"Name": "viewer",
+		"Description": "",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 2
+		}
+	},
+	{
+		"Name": "manager",
+		"Description": "",
+		"defaultPrivilege": {
+			"IsSimple": true,
+			"SimplePrivilege": 3
+		}
+	}
+]
